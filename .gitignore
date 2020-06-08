@@ -1,0 +1,79 @@
+!/Lib/
+
+# Ignore build marker
+/.ok/
+
+# Mac-related stuff
+._.DS_Store/
+.DS_Store/
+*.DS_Store
+
+# Visual Studio 2015 cache/options directory
+.vs/
+
+# Ignore Project Rider config folder
+.idea/
+
+# Ignore NuGet packages folder
+packages/
+!Clients/Web/**/packages/
+.settings/
+refs/
+
+# Node.js
+node_modules/
+node_modules_tmp/
+
+# Ignore .orig files (original revisions written by Git on merge conflicts)
+*.orig
+
+# Ignore specific folders
+/Build/logs/
+
+# Ignore thumbnails created by Windows
+Thumbs.db
+
+# Ignore files built by Visual Studio
+[Bb]in/
+obj/
+csx/
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.cache
+*.ilk
+*.log
+*.sbr
+
+# Tools
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+.sass-cache/
+
+#Web.Desktop
+*.less.d.ts
+
+# Binlog of msbuild
+*.binlog
+/CodeGraphData
+
+# .NET Core
+/artifacts/
+/**/launchSettings.json
+User.Directory.Build.props
+
+/applicationhost.config
+
+/.vscode
+/Dockerfile.buildcontext
+
+# VSCode plugins
+*.bat
