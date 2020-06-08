@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_MIN", "Find_MIN\Find_MIN.csproj", "{A6E711E2-CD2A-440D-81C7-FABBFBA683CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6E711E2-CD2A-440D-81C7-FABBFBA683CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E711E2-CD2A-440D-81C7-FABBFBA683CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E711E2-CD2A-440D-81C7-FABBFBA683CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E711E2-CD2A-440D-81C7-FABBFBA683CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
