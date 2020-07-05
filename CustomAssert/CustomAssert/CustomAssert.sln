@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAssert", "CustomAssert\CustomAssert.csproj", "{F987F2AD-1D0E-4382-A1E1-C28DDD152BFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F987F2AD-1D0E-4382-A1E1-C28DDD152BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F987F2AD-1D0E-4382-A1E1-C28DDD152BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F987F2AD-1D0E-4382-A1E1-C28DDD152BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F987F2AD-1D0E-4382-A1E1-C28DDD152BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
