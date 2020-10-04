@@ -23,13 +23,5 @@ namespace W3Schools_TrySQL_Tests
         {
             Driver.Quit();
         }
-
-        /*
-        [OneTimeTearDown]
-        public void CleanUp()
-        {
-            Driver.Quit();
-        }
-        */
     }
 }
