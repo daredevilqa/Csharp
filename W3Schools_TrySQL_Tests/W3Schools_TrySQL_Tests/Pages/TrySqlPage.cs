@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
 
 namespace W3Schools_TrySQL_Tests.Pages
 {
@@ -34,6 +36,13 @@ namespace W3Schools_TrySQL_Tests.Pages
         {
             var js = (IJavaScriptExecutor) driver;
             js.ExecuteScript($"window.editor.setValue(\"{sql}\")");
+        }
+
+        public void RestoreDb()
+        {
+            RestoreDbBtn.Click();
+            var alert = new WebDriverWait(driver, TimeSpan.FromSeconds(3)).Until(ExpectedConditions.AlertIsPresent());
+            alert.Accept();
         }
 
         public TrySqlPage(IWebDriver driver)
